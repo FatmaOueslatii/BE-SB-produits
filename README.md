@@ -1,17 +1,7 @@
-Spring Cloud Microservices 
+Backend – Spring Boot API
 
-Implémentation d’une architecture microservices complète basée sur Spring Boot et Spring Cloud.
-Mise en place de la communication inter-services (WebClient, OpenFeign), service discovery (Eureka) et API Gateway.
-Centralisation de la configuration avec Config Server (GitHub) et gestion du refresh dynamique via Spring Cloud Bus & RabbitMQ.
-Conteneurisation avec Docker / Docker Compose incluant MySQL.
-Implémentation de la résilience avec Resilience4J et sécurisation via Keycloak.
-
-Stack technique
-- Spring Boot / Spring Cloud
-- Eureka, Gateway, Config Server
-- OpenFeign, WebClient
-- Resilience4J
-- Docker / Docker Compose
-- MySQL
-- RabbitMQ
-- Keycloak
+Implémentation d’une API REST avec Spring Boot, structurée en couches (Model, Repository, Service).
+Gestion de la persistance avec Spring Data JPA et exposition d’API RESTful.
+Utilisation du pattern DTO pour découpler les modèles.
+Mise en place de la sécurité avec JWT (génération, validation, sécurisation des endpoints).
+Intégration de Keycloak / OAuth2 pour la gestion avancée des accès et du social login (GitHub).
